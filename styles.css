@@ -1,0 +1,21 @@
+.grid {
+    border: 2px blue solid;
+    width: 400px;
+    height: 500px;
+    display: grid; /* start by specifying you are using grid */ 
+    grid-template-columns: 100px 50% 200px;
+    grid-template-rows: 40% 50% 50px;
+
+  }
+  
+  .box {
+    background-color: beige;
+    color: black;
+    border-radius: 5px;
+    border: 2px dodgerblue solid;
+  }
+
+
+  /* 1-start by specifying you are using grid  by using: display grid*/ 
+  /* 2 define the columns by using: grid-template-columns: 100px 200px this example is 2 columns*/ 
+  /* 3 define the rows by using: grid-template-rows: 10% 20% 600px;*/ 
